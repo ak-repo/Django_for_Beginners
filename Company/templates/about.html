@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+</head>
+<body>
+{% extends "base.html" %}
+{% block content %}
+<h1>Company About page</h1>
+<p>The company address is {{ contact_address }} and the phone number is {{ phone_number }}.</p>
+{% endblock %}
+</body>
+</html>

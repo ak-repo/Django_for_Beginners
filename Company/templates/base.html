@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    #footer {
+    color: blue;
+    }
+</style>
+<header>
+    <a href="{% url 'home' %}">Home</a>
+    <a href="{% url 'about' %}">About</a>
+</header>
+{% block content %}{% endblock %}
+<footer id="footer">
+    <p>Have a nice day</p>
+</footer>
+
+</body>
+</html>
